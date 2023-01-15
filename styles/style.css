@@ -247,7 +247,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   margin: 100px 200px;
-  gap: 30px;
+  gap: 40px;
 }
 .logo-info {
   display: flex;
@@ -275,6 +275,21 @@ nav ul li a {
 }
 .logo img {
   width: 120px;
-  height: 50px;
+  height: 35px;
 }
 /* logo section style end */
+
+/* footer section style start */
+footer {
+  margin: 100px 200px 200px 200px;
+  max-width: 100%;
+  height: 80px;
+  background-color: #fff4e7;
+  color: #424242;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* footer section style end */
