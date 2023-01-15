@@ -214,6 +214,7 @@ nav ul li a {
   font-weight: 400;
   font-size: 14px;
   color: #727272;
+  width: 50%;
 }
 .achievements-detail {
   display: flex;
@@ -238,3 +239,42 @@ nav ul li a {
   color: #727272;
 }
 /* achieve section style end */
+
+/* logo section style start */
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 200px;
+  gap: 30px;
+}
+.logo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  width: 50%;
+}
+.logo-info-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #131313;
+}
+.logo-info-detail {
+  font-weight: 400;
+  font-size: 14px;
+  color: #727272;
+}
+.logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 80px;
+}
+.logo img {
+  width: 120px;
+  height: 50px;
+}
+/* logo section style end */
