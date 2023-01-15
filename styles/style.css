@@ -74,3 +74,45 @@ nav ul li a {
   width: 950px;
 }
 /* Header section style end */
+
+/* image section style start */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 230px;
+  gap: 50px;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.image img {
+  width: 250px;
+  height: 250px;
+}
+.image-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.image-info-title {
+  font-weight: 500;
+  font-size: 40px;
+}
+.quick-list {
+  color: #727272;
+}
+.of-our {
+  color: #131313;
+}
+.features {
+  color: #ff900e;
+}
+.image-info-detail {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+/* image section style end */
