@@ -126,7 +126,7 @@ nav ul li a {
   align-items: center;
   gap: 100px;
   margin: 50px 200px;
-  position: absolute;
+  position: relative;
 }
 .architect-heading {
   display: flex;
@@ -178,7 +178,7 @@ nav ul li a {
   border-radius: 8px;
   margin: 0 40%;
   position: relative;
-  top: 660px;
+  top: -150px;
 }
 .card-title {
   font-size: 2.5em;
@@ -191,3 +191,50 @@ nav ul li a {
   color: #ffffff;
 }
 /* card section style end */
+
+/* achieve section style start */
+.achieve-section {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 0px 200px;
+}
+.achieve-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.achieve-heading-info {
+  font-weight: 700;
+  font-size: 35px;
+  color: #131313;
+}
+.achieve-info-detail {
+  font-weight: 400;
+  font-size: 14px;
+  color: #727272;
+}
+.achievements-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 35px;
+}
+.achievements {
+  text-align: center;
+  border: 1px solid #ffae51;
+  border-radius: 5px;
+  padding: 20px;
+}
+.number-of-achievements {
+  font-weight: 600;
+  font-size: 40px;
+  color: #424242;
+}
+.name-of-achievements {
+  font-weight: 600;
+  font-size: 16px;
+  color: #727272;
+}
+/* achieve section style end */
