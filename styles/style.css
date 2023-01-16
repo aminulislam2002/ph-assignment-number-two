@@ -74,6 +74,7 @@ nav ul li a {
 }
 .banner-image img {
   width: 950px;
+  max-width: 100%;
 }
 /* Header section style end */
 
@@ -293,3 +294,27 @@ footer {
   justify-content: center;
 }
 /* footer section style end */
+
+/* Media query for Mobile devices */
+@media only screen and (max-width: 688px) {
+  /* nav section responsive */
+  nav {
+    background-color: red;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 25px;
+  }
+
+  /* banner section responsive */
+  .banner {
+    background-color: yellow;
+    margin: 0 auto;
+  }
+  .banner-info {
+    margin: 0 auto;
+  }
+  .banner-info-title {
+    font-size: 35px;
+  }
+  /* imaage section responsive */
+}
