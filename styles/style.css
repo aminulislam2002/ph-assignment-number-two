@@ -349,6 +349,7 @@ footer {
   /* card section responsive */
   .card-section {
     margin: 0 auto;
+    top: -27px;
   }
 
   /* achieve section responsive */
@@ -367,5 +368,25 @@ footer {
   .achievements-detail {
     flex-direction: column;
     margin: 0 auto;
+  }
+
+  /* logo section responsive */
+  .logo-section {
+    background-color: crimson;
+    margin: 100px auto;
+  }
+  .logo-info {
+    width: 100%;
+  }
+  .logos {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  /* footer section responsive */
+  footer {
+    background-color: deeppink;
+    margin: 0 auto;
+    text-align: center;
   }
 }
