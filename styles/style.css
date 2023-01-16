@@ -299,15 +299,19 @@ footer {
 @media only screen and (max-width: 688px) {
   /* nav section responsive */
   nav {
-    background-color: red;
     flex-direction: column;
+    align-items: flex-start;
     margin: 0 auto;
     gap: 25px;
+  }
+  nav ul {
+    flex-direction: column;
+    margin: 0px 10px;
+    gap: 15px;
   }
 
   /* banner section responsive */
   .banner {
-    background-color: yellow;
     margin: 0 auto;
   }
   .banner-info {
@@ -319,7 +323,6 @@ footer {
 
   /* imaage section responsive */
   .image-section {
-    background-color: green;
     flex-direction: column;
     margin: 0 auto;
   }
@@ -337,7 +340,6 @@ footer {
 
   /* architect section responsive */
   .architect-section {
-    background-color: aqua;
     flex-direction: column;
     margin: 50px auto;
   }
@@ -354,7 +356,6 @@ footer {
 
   /* achieve section responsive */
   .achieve-section {
-    background-color: blue;
     margin: 0 auto;
     gap: 50px;
   }
@@ -372,8 +373,7 @@ footer {
 
   /* logo section responsive */
   .logo-section {
-    background-color: crimson;
-    margin: 100px auto;
+    margin: 50px auto;
   }
   .logo-info {
     width: 100%;
@@ -385,7 +385,6 @@ footer {
 
   /* footer section responsive */
   footer {
-    background-color: deeppink;
     margin: 0 auto;
     text-align: center;
   }
