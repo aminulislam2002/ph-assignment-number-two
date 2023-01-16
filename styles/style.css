@@ -346,5 +346,26 @@ footer {
     height: 100%;
   }
 
+  /* card section responsive */
+  .card-section {
+    margin: 0 auto;
+  }
+
   /* achieve section responsive */
+  .achieve-section {
+    background-color: blue;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  .achieve-info {
+    align-items: center;
+    text-align: center;
+  }
+  .achieve-info-detail {
+    width: 100%;
+  }
+  .achievements-detail {
+    flex-direction: column;
+    margin: 0 auto;
+  }
 }
