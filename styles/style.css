@@ -320,7 +320,7 @@ footer {
   /* imaage section responsive */
   .image-section {
     background-color: green;
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: 0 auto;
   }
   .images {
@@ -336,4 +336,15 @@ footer {
   }
 
   /* architect section responsive */
+  .architect-section {
+    background-color: aqua;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  .architect-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* achieve section responsive */
 }
