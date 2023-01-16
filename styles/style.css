@@ -139,6 +139,7 @@ nav ul li a {
   font-weight: 700;
   font-size: 40px;
   color: #131313;
+  border-left: 5px solid #ff900e;
 }
 .architect-info {
   display: flex;
@@ -154,6 +155,7 @@ nav ul li a {
   font-weight: 600;
   font-size: 16px;
   color: #131313;
+  margin: 10px 0;
 }
 .architect-info-detail {
   font-weight: 400;
@@ -301,12 +303,11 @@ footer {
   nav {
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 auto;
+    margin: 0 20px;
     gap: 25px;
   }
   nav ul {
     flex-direction: column;
-    margin: 0px 10px;
     gap: 15px;
   }
 
@@ -341,7 +342,10 @@ footer {
   /* architect section responsive */
   .architect-section {
     flex-direction: column;
-    margin: 50px auto;
+    margin: 50px 20px;
+  }
+  .architect-info-title {
+    margin: 10px 0;
   }
   .architect-image img {
     width: 100%;
